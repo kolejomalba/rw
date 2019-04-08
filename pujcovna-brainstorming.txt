@@ -41,5 +41,13 @@ B) dobré
 - jednoduchý login přes mobil
 
 C) zbytné
+- import z csv nebo Google spreadsheet
+- využít nějaké api, např. pokud knihovna tak Google ISBN nebo Goodreads
+- multi-tenant app
+
+USER STORIES:
+- admin přidá nový předmět
+- admin zaregistruje výpůjčku předmětů pro určitého uživatele
+- uživatel si zarezervuje předmět
 
 GEMS:
