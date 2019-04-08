@@ -14,10 +14,10 @@ Settings:
 
 MODELS:
 Item:
-id, name, description, quantity
+id, name, description, quantity, image
 
 Loan:
-id, foreignid - item_id, loaned_at, returned_at
+id, foreignids - item_id a user_id, loaned_at, returned_at
 
 User:
 standard user a admin
