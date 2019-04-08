@@ -1,0 +1,45 @@
+PUJCOVNA
+========
+
+Aplikace pro evidenci výpůjček věcí. 
+Cílová skupina hobby půjčovny, neziskovky. 
+Jednoduchost zapůjčení.
+
+
+Settings:
+- is_library?
+- is_selfservice?
+- name, frontpage_longtext
+- default_loan_days (1,7,30)
+
+MODELS:
+Item:
+id, name, description, quantity
+
+Loan:
+id, foreignid - item_id, loaned_at, returned_at
+
+User:
+standard user a admin
+
+
+VIEWS:
+- admin
+	- přidání předmětů
+	- administrace výpůjček (přidání výpůjčky, vrácení předmětů)
+	- fronta zarezervovaných předmětů s možností potvrzení (= rezervace-> výpůjčka) nebo zrušení a email notifikace
+	- fronta výpůjček v prodlení s možností upomínek
+
+- user
+	- vlastní aktuální rezervace
+	- možnost nové rezervace
+
+FUNKCE:
+A) základní funkce
+
+B) dobré
+- jednoduchý login přes mobil
+
+C) zbytné
+
+GEMS:
