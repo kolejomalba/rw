@@ -14,13 +14,14 @@ Settings:
 
 MODELS:
 Item:
-id, name, description, quantity, image
+id, name, autor-pouze u knihoven, description, quantity, image
 
 Loan:
 id, foreignids - item_id a user_id, loaned_at, returned_at
 
 User:
 standard user a admin
+id, name, phone, email, type
 
 
 VIEWS:
